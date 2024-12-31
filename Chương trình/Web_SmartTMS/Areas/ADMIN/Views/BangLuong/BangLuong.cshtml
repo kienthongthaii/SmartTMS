@@ -1,0 +1,46 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewBag.Title = "Bảng lương tháng";
+    Layout = "~/Areas/ADMIN/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center">Bảng lương tháng</h2>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Mã bảng lương</th>
+                <th>Mã nhân viên</th>
+                <th>Mã tài xế</th>
+                <th>Tháng</th>
+                <th>Năm</th>
+                <th>Lương cơ bản</th>
+                <th>Phụ cấp</th>
+                <th>Thưởng</th>
+                <th>Khấu trừ</th>
+                <th>Thực lĩnh</th>
+                <th>Ghi chú</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MaBL</td>
+                    <td>@item.MaNV</td>
+                    <td>@item.MaTX</td>
+                    <td>@item.Thang</td>
+                    <td>@item.Nam</td>
+                    <td>@($"{item.LuongCoBan:N0} VNĐ")</td>
+                    <td>@($"{item.PhuCap:N0} VNĐ")</td>
+                    <td>@($"{item.Thuong:N0} VNĐ")</td>
+                    <td>@($"{item.KhauTru:N0} VNĐ")</td>
+                    <td>@($"{item.ThucLinh:N0} VNĐ")</td>
+                    <td>@item.GhiChu</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

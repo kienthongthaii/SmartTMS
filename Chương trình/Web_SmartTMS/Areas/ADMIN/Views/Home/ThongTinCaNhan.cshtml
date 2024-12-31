@@ -1,0 +1,122 @@
+﻿@{
+    ViewBag.Title = "Thông tin cá nhân tài xế";
+    Layout = "~/Areas/ADMIN/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center bg-dark text-white p-3 rounded shadow">🧑‍💼 Thông tin cá nhân tài xế</h2>
+
+<div class="card shadow p-4 mb-4">
+    <h3 class="text-primary">Thông tin chi tiết</h3>
+    <div class="row">
+        <div class="col-md-6">
+            <p><strong>Họ tên:</strong> @ViewBag.TaiXe.HoTen</p>
+            <p><strong>Giới tính:</strong> @(ViewBag.TaiXe.GioiTinh ? "Nam" : "Nữ")</p>
+            <p><strong>Ngày sinh:</strong> @ViewBag.TaiXe.NgaySinh.ToString("dd/MM/yyyy")</p>
+            <p><strong>Số điện thoại:</strong> @ViewBag.TaiXe.SoDT</p>
+            <p><strong>Địa chỉ:</strong> @ViewBag.TaiXe.DiaChi</p>
+            <p><strong>Email:</strong> @ViewBag.TaiXe.Email</p>
+        </div>
+        <div class="col-md-6">
+            <p><strong>CCCD:</strong> @ViewBag.TaiXe.CCCD</p>
+            <p><strong>Bằng lái:</strong> @ViewBag.TaiXe.BangLai</p>
+            <p><strong>Loại bằng lái:</strong> @ViewBag.TaiXe.LoaiBangLai</p>
+            <p><strong>Ngày hết hạn bằng lái:</strong> @ViewBag.TaiXe.NgayHetHanBL.ToString("dd/MM/yyyy")</p>
+            <p><strong>Lương cơ bản:</strong> @($"{ViewBag.TaiXe.LuongCoBan:N0} VNĐ")</p>
+            <p><strong>Trình độ chuyên môn:</strong> @ViewBag.TaiXe.TrinhDoChuyenMon</p>
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+    <button class="btn btn-primary" id="btnFeedback">Gửi phản hồi</button>
+</div>
+
+<!-- Popup phản hồi -->
+<div id="feedbackModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="feedbackModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="feedbackModalLabel">Gửi phản hồi</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="feedbackForm" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="feedbackTitle">Tiêu đề</label>
+                        <input type="text" class="form-control" id="feedbackTitle" placeholder="Nhập tiêu đề..." />
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="feedbackContent">Nội dung</label>
+                        <textarea class="form-control" id="feedbackContent" rows="5" placeholder="Nhập nội dung phản hồi..."></textarea>
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="feedbackAttachment">Đính kèm</label>
+                        <input type="file" class="form-control" id="feedbackAttachment" multiple />
+                        <small class="form-text text-muted">Bạn có thể đính kèm nhiều tệp.</small>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <button type="button" class="btn btn-primary" id="submitFeedback">Gửi</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    // Mở popup phản hồi
+    document.getElementById('btnFeedback').addEventListener('click', function () {
+        const feedbackModal = new bootstrap.Modal(document.getElementById('feedbackModal'));
+        feedbackModal.show();
+    });
+
+    // Xử lý gửi phản hồi
+    document.getElementById('submitFeedback').addEventListener('click', function () {
+        const feedbackTitle = document.getElementById('feedbackTitle').value.trim();
+        const feedbackContent = document.getElementById('feedbackContent').value.trim();
+        const feedbackAttachments = document.getElementById('feedbackAttachment').files;
+
+        if (!feedbackTitle || !feedbackContent) {
+            alert('Vui lòng nhập tiêu đề và nội dung phản hồi.');
+            return;
+        }
+
+        // Tạo FormData để gửi dữ liệu bao gồm file
+        const formData = new FormData();
+        formData.append('title', feedbackTitle);
+        formData.append('content', feedbackContent);
+
+        // Thêm từng file vào FormData
+        for (let i = 0; i < feedbackAttachments.length; i++) {
+            formData.append('attachments', feedbackAttachments[i]);
+        }
+
+        // Gửi dữ liệu qua API
+        fetch('/ADMIN/Home/SendFeedbackWithAttachment', {
+            method: 'POST',
+            body: formData,
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Phản hồi của bạn đã được gửi thành công!');
+                    const feedbackModal = bootstrap.Modal.getInstance(document.getElementById('feedbackModal'));
+                    feedbackModal.hide();
+                    document.getElementById('feedbackForm').reset(); // Reset form
+                } else {
+                    alert('Lỗi: ' + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Có lỗi xảy ra khi gửi phản hồi. Vui lòng thử lại.');
+            });
+    });
+</script>
+
+

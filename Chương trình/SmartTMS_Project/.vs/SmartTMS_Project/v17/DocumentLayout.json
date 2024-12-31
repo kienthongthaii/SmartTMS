@@ -1,0 +1,689 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KLTN_UFM\\SmartTMS_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|d:\\kltn_ufm\\smarttms_project\\smarttms_project\\nghiepvu\\frm_doanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_doanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_doanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_doanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61466FBF-36B7-4D3B-8D55-5015286EF802}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\kltn_ufm\\businesslayer\\nghiepvu\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_hieusuattaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_hieusuattaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_hieusuattaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_hieusuattaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\report\\hieusuattaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\report\\hieusuattaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\report\\hieusuattaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\report\\hieusuattaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_kehoachvanchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_kehoachvanchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\report\\baocaodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\report\\baocaodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\report\\baocaodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\report\\baocaodoanhthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_theodoilotrinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_theodoilotrinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_theodoilotrinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_theodoilotrinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61466FBF-36B7-4D3B-8D55-5015286EF802}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\kltn_ufm\\businesslayer\\nghiepvu\\lichsuhanhtrinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\nghiepvu\\frm_kehoachvanchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\nghiepvu\\frm_kehoachvanchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61466FBF-36B7-4D3B-8D55-5015286EF802}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\kltn_ufm\\businesslayer\\nghiepvu\\nhomlichsuhanhtrinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61466FBF-36B7-4D3B-8D55-5015286EF802}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\kltn_ufm\\businesslayer\\nghiepvu\\lichsutrangthai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_taixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_taixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_taixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_taixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61466FBF-36B7-4D3B-8D55-5015286EF802}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\kltn_ufm\\businesslayer\\danhmuc\\taixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_diemtrungchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_diemtrungchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_diemtrungchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_diemtrungchuyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_phuongtien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_phuongtien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_phuongtien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_phuongtien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\hethong\\frm_connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\hethong\\frm_connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\hethong\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\hethong\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\hethong\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\hethong\\frmtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\hethong\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\hethong\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\hethong\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\hethong\\frm_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61466FBF-36B7-4D3B-8D55-5015286EF802}|..\\BusinessLayer\\BusinessLayer.csproj|d:\\kltn_ufm\\businesslayer\\hethong\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\hethong\\frm_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\hethong\\frm_login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_baixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_baixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\danhmuc\\frm_baixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\danhmuc\\frm_baixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\hethong\\frm_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\hethong\\frm_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|D:\\KLTN_UFM\\SmartTMS_Project\\smarttms_project\\hethong\\frm_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{475D715E-F728-4B6D-8DB0-9933C5A44366}|SmartTMS_Project\\SmartTMS_Project.csproj|solutionrelative:smarttms_project\\hethong\\frm_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LichSuHanhTrinh.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\BusinessLayer\\NGHIEPVU\\LichSuHanhTrinh.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\NGHIEPVU\\LichSuHanhTrinh.cs",
+              "ToolTip": "D:\\KLTN_UFM\\BusinessLayer\\NGHIEPVU\\LichSuHanhTrinh.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\NGHIEPVU\\LichSuHanhTrinh.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:29:53.497Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frm_KeHoachVanChuyen.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_KeHoachVanChuyen.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_KeHoachVanChuyen.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_KeHoachVanChuyen.cs",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_KeHoachVanChuyen.cs",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAawOsCAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:01:47.694Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frm_TheoDoiLoTrinh.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_TheoDoiLoTrinh.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_TheoDoiLoTrinh.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_TheoDoiLoTrinh.cs",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_TheoDoiLoTrinh.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAIAwwEMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T14:18:31.892Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frm_TheoDoiLoTrinh.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_TheoDoiLoTrinh.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_TheoDoiLoTrinh.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_TheoDoiLoTrinh.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_TheoDoiLoTrinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:24:55.827Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaoCaoDoanhThu.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\REPORT\\BaoCaoDoanhThu.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\REPORT\\BaoCaoDoanhThu.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\REPORT\\BaoCaoDoanhThu.cs",
+              "RelativeToolTip": "SmartTMS_Project\\REPORT\\BaoCaoDoanhThu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:57:27.608Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaoCaoDoanhThu.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\REPORT\\BaoCaoDoanhThu.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\REPORT\\BaoCaoDoanhThu.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\REPORT\\BaoCaoDoanhThu.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\REPORT\\BaoCaoDoanhThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:24:29.508Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_DoanhThu.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_DoanhThu.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_DoanhThu.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_DoanhThu.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_DoanhThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:51:28.379Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\BusinessLayer\\NGHIEPVU\\DonHang.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\NGHIEPVU\\DonHang.cs",
+              "ToolTip": "D:\\KLTN_UFM\\BusinessLayer\\NGHIEPVU\\DonHang.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\NGHIEPVU\\DonHang.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAIwD4AAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:29:42Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_DoanhThu.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_DoanhThu.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_DoanhThu.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_DoanhThu.cs",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_DoanhThu.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAnwL4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:51:31.569Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{38d99dee-6bf2-4258-8107-9ef666ac3e3d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frm_BaoCao.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_BaoCao.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_BaoCao.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_BaoCao.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_BaoCao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:55:59.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_HieuSuatTaiXe.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_HieuSuatTaiXe.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_HieuSuatTaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_HieuSuatTaiXe.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_HieuSuatTaiXe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:25:01.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frm_HieuSuatTaiXe.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_HieuSuatTaiXe.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_HieuSuatTaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_HieuSuatTaiXe.cs",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_HieuSuatTaiXe.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAiwAMBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:42:29.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HieuSuatTaiXe.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\REPORT\\HieuSuatTaiXe.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\REPORT\\HieuSuatTaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\REPORT\\HieuSuatTaiXe.cs",
+              "RelativeToolTip": "SmartTMS_Project\\REPORT\\HieuSuatTaiXe.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:38:11.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HieuSuatTaiXe.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\REPORT\\HieuSuatTaiXe.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\REPORT\\HieuSuatTaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\REPORT\\HieuSuatTaiXe.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\REPORT\\HieuSuatTaiXe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:38:03.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frm_KeHoachVanChuyen.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_KeHoachVanChuyen.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_KeHoachVanChuyen.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_KeHoachVanChuyen.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_KeHoachVanChuyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:24:53.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LichSuTrangThai.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\BusinessLayer\\NGHIEPVU\\LichSuTrangThai.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\NGHIEPVU\\LichSuTrangThai.cs",
+              "ToolTip": "D:\\KLTN_UFM\\BusinessLayer\\NGHIEPVU\\LichSuTrangThai.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\NGHIEPVU\\LichSuTrangThai.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:25:10.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NhomLichSuHanhTrinh.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\BusinessLayer\\NGHIEPVU\\NhomLichSuHanhTrinh.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\NGHIEPVU\\NhomLichSuHanhTrinh.cs",
+              "ToolTip": "D:\\KLTN_UFM\\BusinessLayer\\NGHIEPVU\\NhomLichSuHanhTrinh.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\NGHIEPVU\\NhomLichSuHanhTrinh.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T14:04:46.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\Program.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\Program.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\Program.cs",
+              "RelativeToolTip": "SmartTMS_Project\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:23:06.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_BaoCao.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_BaoCao.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\NGHIEPVU\\frm_BaoCao.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\NGHIEPVU\\frm_BaoCao.cs",
+              "RelativeToolTip": "SmartTMS_Project\\NGHIEPVU\\frm_BaoCao.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAvwDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T15:56:00.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frm_NhanVien.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_NhanVien.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_NhanVien.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_NhanVien.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_NhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:04:04.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frm_TaiXe.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_TaiXe.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_TaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_TaiXe.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_TaiXe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:21:58.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frm_TaiXe.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_TaiXe.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_TaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_TaiXe.cs",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_TaiXe.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAAACUBAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:21:59.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaiXe.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\BusinessLayer\\DANHMUC\\TaiXe.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\DANHMUC\\TaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\BusinessLayer\\DANHMUC\\TaiXe.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\DANHMUC\\TaiXe.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:59:00.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frm_NhanVien.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_NhanVien.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_NhanVien.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_NhanVien.cs",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_NhanVien.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAAAF8BAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:04:05.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frm_KhachHang.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_KhachHang.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_KhachHang.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_KhachHang.cs",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_KhachHang.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAAKUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:03:20.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frm_KhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_KhachHang.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_KhachHang.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_KhachHang.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_KhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:04:14.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frm_DiemTrungChuyen.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_DiemTrungChuyen.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_DiemTrungChuyen.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_DiemTrungChuyen.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_DiemTrungChuyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:04:31.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frm_PhuongTien.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_PhuongTien.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_PhuongTien.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_PhuongTien.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_PhuongTien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:03:51.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frm_ConnectDB.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_ConnectDB.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\HETHONG\\frm_ConnectDB.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_ConnectDB.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\HETHONG\\frm_ConnectDB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T10:33:45.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frm_Login.Designer.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_Login.Designer.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\HETHONG\\frm_Login.Designer.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_Login.Designer.cs",
+              "RelativeToolTip": "SmartTMS_Project\\HETHONG\\frm_Login.Designer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:32:56.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frm_PhuongTien.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_PhuongTien.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_PhuongTien.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_PhuongTien.cs",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_PhuongTien.cs",
+              "ViewState": "AgIAAC4BAAAAAAAAAAAowDcBAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:03:55.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frm_DiemTrungChuyen.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_DiemTrungChuyen.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_DiemTrungChuyen.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_DiemTrungChuyen.cs",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_DiemTrungChuyen.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAIwOQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:04:33.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "frm_Login.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_Login.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\HETHONG\\frm_Login.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_Login.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\HETHONG\\frm_Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:27:32.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frm_Login.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_Login.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\HETHONG\\frm_Login.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_Login.cs",
+              "RelativeToolTip": "SmartTMS_Project\\HETHONG\\frm_Login.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAmwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:27:33.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\BusinessLayer\\HETHONG\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "..\\BusinessLayer\\HETHONG\\TaiKhoan.cs",
+              "ToolTip": "D:\\KLTN_UFM\\BusinessLayer\\HETHONG\\TaiKhoan.cs",
+              "RelativeToolTip": "..\\BusinessLayer\\HETHONG\\TaiKhoan.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:28:51.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmTrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frmTrangChu.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\HETHONG\\frmTrangChu.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frmTrangChu.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\HETHONG\\frmTrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T09:15:59.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmTrangChu.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frmTrangChu.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\HETHONG\\frmTrangChu.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frmTrangChu.cs",
+              "RelativeToolTip": "SmartTMS_Project\\HETHONG\\frmTrangChu.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwF4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T09:16:22.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "frm_BaiXe.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_BaiXe.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_BaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_BaiXe.cs",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_BaiXe.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:04:21.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "frm_BaiXe.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_BaiXe.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\DANHMUC\\frm_BaiXe.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\DANHMUC\\frm_BaiXe.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\DANHMUC\\frm_BaiXe.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:04:20.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "frm_DashBoard.cs",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_DashBoard.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\HETHONG\\frm_DashBoard.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_DashBoard.cs",
+              "RelativeToolTip": "SmartTMS_Project\\HETHONG\\frm_DashBoard.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAUwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:28:20.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "frm_DashBoard.cs [Design]",
+              "DocumentMoniker": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_DashBoard.cs",
+              "RelativeDocumentMoniker": "SmartTMS_Project\\HETHONG\\frm_DashBoard.cs",
+              "ToolTip": "D:\\KLTN_UFM\\SmartTMS_Project\\SmartTMS_Project\\HETHONG\\frm_DashBoard.cs [Design]",
+              "RelativeToolTip": "SmartTMS_Project\\HETHONG\\frm_DashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:28:15.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

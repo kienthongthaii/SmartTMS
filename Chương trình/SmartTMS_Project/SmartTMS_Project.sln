@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartTMS_Project", "SmartTMS_Project\SmartTMS_Project.csproj", "{475D715E-F728-4B6D-8DB0-9933C5A44366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "..\DataLayer\DataLayer.csproj", "{55AB69DE-FC17-40BD-9F79-C4B0F11775E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{61466FBF-36B7-4D3B-8D55-5015286EF802}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{475D715E-F728-4B6D-8DB0-9933C5A44366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475D715E-F728-4B6D-8DB0-9933C5A44366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475D715E-F728-4B6D-8DB0-9933C5A44366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475D715E-F728-4B6D-8DB0-9933C5A44366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AB69DE-FC17-40BD-9F79-C4B0F11775E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AB69DE-FC17-40BD-9F79-C4B0F11775E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AB69DE-FC17-40BD-9F79-C4B0F11775E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AB69DE-FC17-40BD-9F79-C4B0F11775E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61466FBF-36B7-4D3B-8D55-5015286EF802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61466FBF-36B7-4D3B-8D55-5015286EF802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61466FBF-36B7-4D3B-8D55-5015286EF802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61466FBF-36B7-4D3B-8D55-5015286EF802}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

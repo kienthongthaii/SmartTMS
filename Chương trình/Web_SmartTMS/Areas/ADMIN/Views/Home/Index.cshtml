@@ -1,0 +1,228 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/ADMIN/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">TRANG THÔNG TIN CHUNG</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item active">Cung cấp các thông tin chính về đơn hàng của bạn</li>
+        </ol>
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-primary text-white mb-4">
+                    <div class="card-body text-center">
+                        <h5>Số đơn hiện tại</h5>
+                        <h1 class="display-4">7</h1> <!-- Ví dụ số đơn, thay bằng dữ liệu thực tế -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-warning text-white mb-4">
+                    <div class="card-body text-center">
+                        <h5>Số đơn hoàn thành</h5>
+                        <h1 class="display-4">19</h1> <!-- Ví dụ số đơn, thay bằng dữ liệu thực tế -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-success text-white mb-4">
+                    <div class="card-body text-center">
+                        <h5>Số đơn mới</h5>
+                        <h1 class="display-4">4</h1> <!-- Ví dụ số đơn, thay bằng dữ liệu thực tế -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-danger text-white mb-4">
+                    <div class="card-body text-center">
+                        <h5>Số đơn đang giao</h5>
+                        <h1 class="display-4">3</h1> <!-- Ví dụ số đơn, thay bằng dữ liệu thực tế -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-area me-1"></i>
+                        Thu nhập (ngoài lương) theo từng tháng
+                    </div>
+                    <div class="card-body"><canvas id="myAreaChart" width="100%" height="40"></canvas></div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    var ctx = document.getElementById("myAreaChart").getContext('2d');
+                    var myAreaChart = new Chart(ctx, {
+                        type: 'line', // Biểu đồ diện tích
+                        data: {
+                            labels: ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"], // Nhãn trục X
+                            datasets: [{
+                                label: "Thu nhập ngoài lương (triệu VND)",
+                                data: [5, 10, 15, 13, 18, 22, 19, 20, 16, 15, 19, 26], // Dữ liệu mẫu
+                                fill: true, // Tô màu dưới đường biểu đồ
+                                backgroundColor: "rgba(75, 192, 192, 0.2)", // Màu tô
+                                borderColor: "rgba(75, 192, 192, 1)", // Màu đường viền
+                                borderWidth: 2
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            scales: {
+                                y: {
+                                    beginAtZero: true, // Trục Y bắt đầu từ 0
+                                    ticks: {
+                                        stepSize: 5 // Khoảng cách giữa các giá trị trên trục Y
+                                    }
+                                }
+                            }
+                        }
+                    });
+                });
+            </script>
+            <div class="col-xl-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <i class="fas fa-chart-bar me-1"></i>
+                        Số lượng hàng đã giao qua từng tháng (đơn)
+                    </div>
+                    <div class="card-body"><canvas id="myBarChart" width="100%" height="40"></canvas></div>
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            <script>
+
+                var ctx = document.getElementById("myBarChart").getContext('2d');
+                var myBarChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: ["Tháng 1", "Tháng 2", "Tháng 3", "Tháng 4", "Tháng 5", "Tháng 6", "Tháng 7", "Tháng 8", "Tháng 9", "Tháng 10", "Tháng 11", "Tháng 12"],
+                        datasets: [{
+                            label: "Số lượng hàng giao (đơn)",
+                            data: [12, 18, 25, 22, 30, 28, 11, 5, 23, 30, 33, 26], // Dữ liệu mẫu
+                            backgroundColor: "rgba(54, 162, 235, 0.2)",
+                            borderColor: "rgba(54, 162, 235, 1)",
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true, // Bắt đầu từ 0
+                                ticks: {
+                                    stepSize: 10, // Hiển thị từng bậc 10
+                                    callback: function (value) {
+                                        if (value <= 40) {
+                                            return value; // Chỉ hiển thị giá trị nhỏ
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            </script>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+                Danh sách các đơn hàng giao gần đây
+            </div>
+            <div class="card-body">
+                <table id="datatablesSimple">
+                    <thead>
+                        <tr>
+                            <th>Mã vận đơn</th>
+                            <th>Ngày giao</th>
+                            <th>Địa điểm</th>
+                            <th>Thời gian</th>
+                            <th>Hoa hồng</th>
+                            <th>Giá trị</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Mã vận đơn</th>
+                            <th>Ngày giao</th>
+                            <th>Địa điểm</th>
+                            <th>Thời gian</th>
+                            <th>Hoa hồng</th>
+                            <th>Giá trị</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>DH001</td>
+                            <td>01/01/2024</td>
+                            <td>Hà Nội</td>
+                            <td>10:00</td>
+                            <td>500,000 VND</td>
+                            <td>10,000,000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>DH002</td>
+                            <td>02/01/2024</td>
+                            <td>TP. Hồ Chí Minh</td>
+                            <td>14:00</td>
+                            <td>700,000 VND</td>
+                            <td>12,000,000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>DH003</td>
+                            <td>03/01/2024</td>
+                            <td>Đà Nẵng</td>
+                            <td>16:00</td>
+                            <td>300,000 VND</td>
+                            <td>5,000,000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>DH004</td>
+                            <td>04/01/2024</td>
+                            <td>Cần Thơ</td>
+                            <td>09:00</td>
+                            <td>400,000 VND</td>
+                            <td>8,000,000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>DH005</td>
+                            <td>05/01/2024</td>
+                            <td>Hải Phòng</td>
+                            <td>13:00</td>
+                            <td>600,000 VND</td>
+                            <td>9,000,000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>DH006</td>
+                            <td>06/01/2024</td>
+                            <td>Huế</td>
+                            <td>15:30</td>
+                            <td>200,000 VND</td>
+                            <td>3,000,000 VND</td>
+                        </tr>
+                        <tr>
+                            <td>DH007</td>
+                            <td>07/01/2024</td>
+                            <td>Vũng Tàu</td>
+                            <td>17:00</td>
+                            <td>450,000 VND</td>
+                            <td>6,500,000 VND</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    
+
+</main>

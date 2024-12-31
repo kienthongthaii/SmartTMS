@@ -1,0 +1,4 @@
+Thư mục Báo cáo : chứa file báo cáo Word + PDF
+Thư mục Cơ sở dữ liệu : chứa file databse (SmartTMS.bak và SmartTMS_Script.sql)
+Thư mục Chương trình : chứa 2 folder (Web_SmartTMS -- Phân hệ Web và SmartTMS_Project -- Phân hệ Win)
+pass win + web : 123/123

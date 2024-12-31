@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Chính sách chế độ";
+    Layout = "~/Areas/ADMIN/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">Chính sách và chế độ của công ty</h1>
+    <div class="card mt-4">
+        <div class="card-header bg-primary text-white">
+            <h4>Chính sách làm việc</h4>
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>Thời gian làm việc: 8h00 - 17h00, từ thứ Hai đến thứ Sáu.</li>
+                <li>Nghỉ trưa: 12h00 - 13h00.</li>
+                <li>Chế độ làm việc linh hoạt (WFH) được áp dụng trong trường hợp cần thiết.</li>
+                <li>Nhân viên được nghỉ phép 12 ngày/năm, nghỉ lễ theo quy định của Nhà nước.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-success text-white">
+            <h4>Chính sách lương thưởng</h4>
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>Lương được chi trả vào ngày 5 hàng tháng.</li>
+                <li>Thưởng cuối năm dựa trên hiệu suất làm việc và kết quả kinh doanh của công ty.</li>
+                <li>Thưởng lễ, Tết và các dịp đặc biệt (sinh nhật, cưới hỏi).</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-warning text-dark">
+            <h4>Chính sách phúc lợi</h4>
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>Bảo hiểm xã hội, bảo hiểm y tế theo quy định của pháp luật.</li>
+                <li>Bảo hiểm sức khỏe cá nhân và gia đình (nếu có).</li>
+                <li>Chế độ khám sức khỏe định kỳ hàng năm.</li>
+                <li>Hỗ trợ chi phí đi lại và ăn trưa.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-info text-white">
+            <h4>Chính sách đào tạo và phát triển</h4>
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>Hỗ trợ 100% chi phí các khóa học chuyên môn liên quan đến công việc.</li>
+                <li>Các buổi hội thảo và đào tạo kỹ năng mềm miễn phí.</li>
+                <li>Cơ hội thăng tiến dựa trên năng lực và đóng góp cá nhân.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-header {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+</style>

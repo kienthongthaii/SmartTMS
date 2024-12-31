@@ -1,0 +1,232 @@
+﻿@{
+    ViewBag.Title = "Danh sách phương tiện";
+    Layout = "~/Areas/ADMIN/Views/Shared/_Layout.cshtml";
+}
+
+<div style="text-align: center; margin-bottom: 20px; width: 100%; background-color: #0C6478; color: white; border-radius: 10px; padding: 15px 0;">
+    <h2 style="margin: 0;">Danh sách phương tiện</h2>
+</div>
+
+<!-- Combo lọc phía trên -->
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px; align-items: center;">
+    <div style="width: 48%;">
+        <label for="filterCombo" style="font-size: 14px; color: #555; display: flex; align-items: center;">
+            <i class="fas fa-filter" style="margin-right: 8px; color: #007bff;"></i> Bộ lọc loại xe
+        </label>
+        <select id="filterCombo" onchange="filterVehicles()" class="filter-input">
+            <option value="">Tất cả</option>
+            <option value="Container (40 feet)">Container (40 feet)</option>
+            <option value="Container (20 feet)">Container (20 feet)</option>
+            <option value="Xe tải > 100 tấn">Xe tải > 100 tấn</option>
+            <option value="Xe tải < 100 tấn">Xe tải < 100 tấn</option>
+            <option value="Xe tải > 10 tấn">Xe tải > 10 tấn</option>
+            <option value="Xe tải < 10 tấn">Xe tải < 10 tấn</option>
+            <option value="Xe van">Xe van</option>
+            <option value="Xe máy">Xe máy</option>
+        </select>
+    </div>
+    <div style="width: 48%;">
+        <label for="searchInput" style="font-size: 14px; color: #555; display: flex; align-items: center;">
+            <i class="fas fa-search" style="margin-right: 8px; color: #007bff;"></i> Tìm kiếm biển số
+        </label>
+        <input id="searchInput" type="text" onkeyup="searchVehicles()" placeholder="Tìm theo biển số..." class="filter-input" />
+    </div>
+</div>
+
+<div class="content-wrapper">
+    <!-- Danh sách phương tiện bên trái -->
+    <div id="vehicleList" class="vehicle-list">
+        @foreach (var item in Model)
+        {
+            <div class="vehicle-card">
+                <h5 style="margin: 0;">@item.BienSo</h5>
+                <p style="margin: 5px 0; font-size: 14px;"><strong>Loại xe:</strong> @item.LoaiXe</p>
+                <i class="vehicle-icon @GetVehicleIcon(item.LoaiXe)" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); font-size: 24px; color: #007bff;"></i>
+                <button onclick="loadDetails('@item.MaPT')" class="btn-detail">Xem chi tiết</button>
+            </div>
+        }
+    </div>
+
+    <!-- Thông tin chi tiết bên phải -->
+    <div id="details" class="details-panel">
+        <h3>Chọn phương tiện để xem chi tiết</h3>
+    </div>
+</div>
+
+<script>
+    function filterVehicles() {
+        const filterValue = document.getElementById('filterCombo').value.toLowerCase();
+        const vehicleCards = document.querySelectorAll('.vehicle-card');
+
+        vehicleCards.forEach(card => {
+            const vehicleType = card.querySelector('p').textContent.toLowerCase();
+            if (filterValue === "" || vehicleType.includes(filterValue)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    }
+
+    function searchVehicles() {
+        const searchValue = document.getElementById('searchInput').value.toLowerCase();
+        const vehicleCards = document.querySelectorAll('.vehicle-card');
+
+        vehicleCards.forEach(card => {
+            const licensePlate = card.querySelector('h5').textContent.toLowerCase();
+            if (licensePlate.includes(searchValue)) {
+                card.style.display = "block";
+            } else {
+                card.style.display = "none";
+            }
+        });
+    }
+
+    function loadDetails(maPT) {
+        fetch(`@Url.Action("Details", "PhuongTien", new { area = "ADMIN" })?id=${maPT}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    const details = data.data;
+                    document.getElementById('details').innerHTML = `
+                        <h3>Chi tiết phương tiện</h3>
+                        <p><strong>Biển số:</strong> ${details.BienSo}</p>
+                        <p><strong>Loại xe:</strong> ${details.LoaiXe}</p>
+                        <p><strong>Hãng xe:</strong> ${details.HangXe}</p>
+                        <p><strong>Model:</strong> ${details.Model}</p>
+                        <p><strong>Năm sản xuất:</strong> ${details.NamSX}</p>
+                        <p><strong>Màu xe:</strong> ${details.MauXe}</p>
+                        <p><strong>Km hiện tại:</strong> ${details.KmHienTai}</p>
+                        <p><strong>Trạng thái:</strong> ${details.TrangThai}</p>
+                    `;
+                } else {
+                    document.getElementById('details').innerHTML = `<h3>${data.message}</h3>`;
+                }
+            })
+            .catch(() => {
+                alert('Không thể tải thông tin chi tiết.');
+            });
+    }
+</script>
+@functions {
+    private string GetVehicleIcon(string loaiXe)
+    {
+        if (loaiXe == "Container (40 feet)")
+            return "fas fa-box";
+        else if (loaiXe == "Container (20 feet)")
+            return "fas fa-box-open";
+        else if (loaiXe == "Xe tải > 100 tấn")
+            return "fas fa-dumpster";
+        else if (loaiXe == "Xe tải < 100 tấn")
+            return "fas fa-truck";
+        else if (loaiXe == "Xe tải > 10 tấn")
+            return "fas fa-shipping-fast";
+        else if (loaiXe == "Xe tải < 10 tấn")
+            return "fas fa-truck-pickup";
+        else if (loaiXe == "Xe van")
+            return "fas fa-van-shuttle";
+        else if (loaiXe == "Xe máy")
+            return "fas fa-motorcycle";
+        else
+            return "fas fa-question";
+    }
+}
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+    }
+
+    .filter-input {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.2s;
+    }
+
+        .filter-input:focus {
+            box-shadow: 0 2px 5px rgba(0, 123, 255, 0.5);
+            outline: none;
+        }
+
+    .content-wrapper {
+        display: flex;
+        height: calc(100vh - 200px);
+        gap: 10px;
+    }
+
+    .vehicle-list {
+        width: 40%;
+        border-right: 1px solid #ccc;
+        padding-right: 10px;
+        overflow-y: auto;
+    }
+
+    .vehicle-card {
+        position: relative;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        transition: box-shadow 0.3s;
+    }
+
+        .vehicle-card:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+    .btn-detail {
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .btn-detail:hover {
+            background-color: #0056b3;
+        }
+
+    .details-panel {
+        width: 60%;
+        padding-left: 10px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        padding: 20px;
+        overflow-y: auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+        .details-panel h3 {
+            font-size: 22px;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .details-panel p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+    .vehicle-icon {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        font-size: 24px;
+        color: #007bff;
+    }
+</style>

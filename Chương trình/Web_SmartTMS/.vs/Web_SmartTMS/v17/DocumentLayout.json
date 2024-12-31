@@ -1,0 +1,452 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Web_SmartTMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|d:\\web_smarttms\\areas\\admin\\views\\shared\\leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\shared\\leftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\home\\chinhsachchedo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\home\\chinhsachchedo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D945C1-E7C0-46E8-A970-BB9A1D5AB98F}|..\\Model\\Model.csproj|d:\\model\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D945C1-E7C0-46E8-A970-BB9A1D5AB98F}|..\\Model\\Model.csproj|d:\\model\\ef\\web_smarttms_dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\model\\lichsuhanhtrinhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\model\\lichsuhanhtrinhmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\model\\donhangviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\model\\donhangviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\model\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\model\\phuongtienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\model\\phuongtienmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\bangluong\\bangluong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\bangluong\\bangluong.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\controllers\\bangluongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\controllers\\bangluongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\home\\thongtincanhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\home\\thongtincanhan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\nhienlieu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\nhienlieu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\controllers\\nhienlieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\controllers\\nhienlieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\nhienlieu\\danhsachphieunhienlieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\nhienlieu\\danhsachphieunhienlieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\model\\taixemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\model\\taixemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\donhang\\donhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\donhang\\donhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|D:\\Web_SmartTMS\\areas\\admin\\views\\phuongtien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{10555896-4580-41D2-BF4D-114AF5EA2B50}|Web_SmartTMS.csproj|solutionrelative:areas\\admin\\views\\phuongtien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\Login\\Index.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T17:42:08.362Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:14:20.39Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T17:38:11.671Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{38d99dee-6bf2-4258-8107-9ef666ac3e3d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LichSuHanhTrinhModel.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\LichSuHanhTrinhModel.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Model\\LichSuHanhTrinhModel.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\LichSuHanhTrinhModel.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Model\\LichSuHanhTrinhModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:04:12.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DonHangViewModel.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\DonHangViewModel.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Model\\DonHangViewModel.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\DonHangViewModel.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Model\\DonHangViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T07:45:25.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DanhSachPhieuNhienLieu.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\NhienLieu\\DanhSachPhieuNhienLieu.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\NhienLieu\\DanhSachPhieuNhienLieu.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\NhienLieu\\DanhSachPhieuNhienLieu.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\NhienLieu\\DanhSachPhieuNhienLieu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T18:29:00.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DonHangController.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\DonHangController.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Controllers\\DonHangController.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\DonHangController.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Controllers\\DonHangController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwOYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:48:01.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeftMenu.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Shared\\LeftMenu.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\Shared\\LeftMenu.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Shared\\LeftMenu.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\Shared\\LeftMenu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T16:47:05.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T17:10:23.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChinhSachCheDo.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Home\\ChinhSachCheDo.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\Home\\ChinhSachCheDo.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Home\\ChinhSachCheDo.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\Home\\ChinhSachCheDo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T16:48:06.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "web.config",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\web.config",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\web.config",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\web.config",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T07:51:13.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Web_SmartTMS\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T07:51:48.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Model\\App.config",
+              "RelativeDocumentMoniker": "..\\Model\\App.config",
+              "ToolTip": "D:\\Model\\App.config",
+              "RelativeToolTip": "..\\Model\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-27T07:53:00.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Web_SmartTMS_DbContext.cs",
+              "DocumentMoniker": "D:\\Model\\EF\\Web_SmartTMS_DbContext.cs",
+              "RelativeDocumentMoniker": "..\\Model\\EF\\Web_SmartTMS_DbContext.cs",
+              "ToolTip": "D:\\Model\\EF\\Web_SmartTMS_DbContext.cs",
+              "RelativeToolTip": "..\\Model\\EF\\Web_SmartTMS_DbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:54:10.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ThongTinCaNhan.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Home\\ThongTinCaNhan.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\Home\\ThongTinCaNhan.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\Home\\ThongTinCaNhan.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\Home\\ThongTinCaNhan.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAADwv1cAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T17:13:40.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Model\\LoginModel.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\LoginModel.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Model\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:39:22.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PhuongTienModel.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\PhuongTienModel.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Model\\PhuongTienModel.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\PhuongTienModel.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Model\\PhuongTienModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:38:21.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\NhienLieu\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\NhienLieu\\Create.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\NhienLieu\\Create.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\NhienLieu\\Create.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAADwv2EAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T18:36:17.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA0wB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:39:24.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BangLuongController.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\BangLuongController.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Controllers\\BangLuongController.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\BangLuongController.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Controllers\\BangLuongController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T19:11:38.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BangLuong.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\BangLuong\\BangLuong.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\BangLuong\\BangLuong.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\BangLuong\\BangLuong.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\BangLuong\\BangLuong.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T19:12:26.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NhienLieuController.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\NhienLieuController.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Controllers\\NhienLieuController.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Controllers\\NhienLieuController.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Controllers\\NhienLieuController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:36:29.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaiXeModel.cs",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\TaiXeModel.cs",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Model\\TaiXeModel.cs",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Model\\TaiXeModel.cs",
+              "RelativeToolTip": "Areas\\ADMIN\\Model\\TaiXeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:48:25.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\PhuongTien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\PhuongTien\\Index.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\PhuongTien\\Index.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\PhuongTien\\Index.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAowG4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T16:14:38.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DonHang.cshtml",
+              "DocumentMoniker": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\DonHang\\DonHang.cshtml",
+              "RelativeDocumentMoniker": "Areas\\ADMIN\\Views\\DonHang\\DonHang.cshtml",
+              "ToolTip": "D:\\Web_SmartTMS\\Areas\\ADMIN\\Views\\DonHang\\DonHang.cshtml",
+              "RelativeToolTip": "Areas\\ADMIN\\Views\\DonHang\\DonHang.cshtml",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAowNAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-18T18:47:38.101Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

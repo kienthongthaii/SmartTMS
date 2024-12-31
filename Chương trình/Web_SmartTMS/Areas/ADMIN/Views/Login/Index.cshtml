@@ -1,0 +1,264 @@
+﻿@{
+    Layout = null;
+}
+@model Web_SmartTMS.Areas.ADMIN.Model.LoginModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Hệ thống quản lý SmartTMS - Đăng nhập tài khoản để sử dụng các chức năng quản lý vận tải và tài xế." />
+    <meta name="author" content="" />
+    <title>SmartTMS - Đăng nhập</title>
+    <link rel="icon" href="~/Assets/Admin/images/Logo_No_Backgroud.png" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Assets/Admin/css/login.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-card shadow-lg rounded">
+            <div class="row g-0">
+                <!-- Hình hoạt họa -->
+                <div class="col-md-6 animation-container">
+                    <img src="~/Assets/Admin/images/Logo_No_Backgroud.png" alt="Welcome" />
+                </div>
+                <!-- Đường gạch đứng -->
+                <div class="col-md-1 separator"></div>
+                <!-- Form đăng nhập -->
+                <div class="col-md-5">
+                    <div class="p-4">
+                        <div class="text-center mb-4">
+                            <h3 class="fw-bold">Đăng nhập hệ thống</h3>
+                            <p>Chào mừng bạn đến với <strong>SmartTMS</strong></p>
+                        </div>
+                        @using (Html.BeginForm("Login", "Login", FormMethod.Post, new { area = "ADMIN" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                            <div class="form-floating mb-3">
+                                @Html.TextBoxFor(model => model.TenDangNhap, new { @class = "form-control", @placeholder = "Nhập tên đăng nhập", @aria_label = "Tên đăng nhập" })
+                                <label for="inputEmail">Tên đăng nhập</label>
+                                @Html.ValidationMessageFor(model => model.TenDangNhap, "", new { @class = "text-danger small" })
+                            </div>
+                            <div class="form-floating mb-3 position-relative">
+                                @Html.PasswordFor(model => model.Password, new { @class = "form-control", id = "passwordInput", @placeholder = "Nhập mật khẩu", @aria_label = "Mật khẩu" })
+                                <label for="passwordInput">Mật khẩu</label>
+                                <span class="position-absolute end-0 top-50 translate-middle-y me-3" onclick="togglePassword()" style="cursor: pointer;">
+                                    <i class="fas fa-eye" id="togglePasswordIcon"></i>
+                                </span>
+                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger small" })
+                            </div>
+                            <div class="form-check mb-3">
+                                @Html.CheckBoxFor(model => model.RememberMe, new { @class = "form-check-input", @id = "rememberMe" })
+                                <label class="form-check-label" for="rememberMe">Nhớ mật khẩu</label>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-success btn-lg">Đăng nhập</button>
+                            </div>
+                            <div class="text-center mt-3">
+                                <a href="password.html" class="small">Quên mật khẩu?</a>
+                            </div>
+                        }
+                        <div class="text-center mt-3">
+                            <p class="small">
+                                Chưa có tài khoản?
+                                <a href="#" class="fw-bold" id="registerLink">Đăng kí ngay!</a>
+                            </p>
+                        </div>
+
+                        <!-- Popup -->
+                        <div id="registerModal" class="custom-modal">
+                            <div class="custom-modal-content">
+                                <span class="custom-close-btn" id="closeRegisterModal">&times;</span>
+                                <h5 class="modal-title">Thông báo</h5>
+                                <p>Phần mềm hiện tại chỉ dành cho nhân viên của SmartTMS. Vui lòng liên hệ phòng nhân sự để được cấp tài khoản. Xin cảm ơn!</p>
+                                <button class="btn btn-primary" id="okButton">OK</button>
+                            </div>
+                        </div>
+
+                       
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Popup -->
+    <div id="registerModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Thông báo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Phần mềm hiện tại chỉ dành cho nhân viên của SmartTMS.<br>
+                        Bạn vui lòng liên hệ phòng nhân sự để được cấp tài khoản, xin cảm ơn!
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function togglePassword() {
+            const passwordInput = document.getElementById("passwordInput");
+            const toggleIcon = document.getElementById("togglePasswordIcon");
+
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+                toggleIcon.classList.remove("fa-eye");
+                toggleIcon.classList.add("fa-eye-slash");
+            } else {
+                passwordInput.type = "password";
+                toggleIcon.classList.remove("fa-eye-slash");
+                toggleIcon.classList.add("fa-eye");
+            }
+        }
+
+        // Hiển thị popup
+        document.getElementById('registerLink').addEventListener('click', function (event) {
+            event.preventDefault(); // Ngăn chặn hành vi mặc định của liên kết
+            document.getElementById('registerModal').style.display = 'block';
+        });
+
+        // Đóng popup
+        document.getElementById('closeRegisterModal').addEventListener('click', function () {
+            document.getElementById('registerModal').style.display = 'none';
+        });
+
+        // Xử lý khi nhấn nút OK
+        document.getElementById('okButton').addEventListener('click', function () {
+            document.getElementById('registerModal').style.display = 'none';
+        });
+
+        // Đóng popup khi nhấn ra ngoài
+        window.addEventListener('click', function (event) {
+            const modal = document.getElementById('registerModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+
+    <style>
+        body {
+            background: linear-gradient(180deg, #80EE98, #46DFB1, #09D1C7, #15919B, #0C6478, #213A58);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .login-container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+
+        .login-card {
+            max-width: 900px;
+            width: 100%;
+            background-color: #ffffff;
+            border-radius: 15px;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .animation-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            .animation-container img {
+                max-width: 80%;
+                max-height: 80%;
+                display: block;
+            }
+
+        .form-floating label {
+            color: #6c757d;
+        }
+
+        .btn-success:hover {
+            background-color: #218838;
+            box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.5);
+        }
+
+        .separator {
+            width: 1px;
+            background-color: #ccc;
+            height: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+
+        /* Modal Styles */
+        .custom-modal {
+            display: none; /* Ẩn modal mặc định */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.5); /* Màu nền tối */
+        }
+
+        .custom-modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .custom-close-btn {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+            .custom-close-btn:hover, .custom-close-btn:focus {
+                color: black;
+                text-decoration: none;
+                cursor: pointer;
+            }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+    </style>
+
+</body>
+</html>

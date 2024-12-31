@@ -1,0 +1,208 @@
+﻿@{
+    ViewBag.Title = "Danh sách đơn hàng";
+    Layout = "~/Areas/ADMIN/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="text-center bg-dark text-white p-3 rounded shadow">📦 Danh sách đơn hàng</h2>
+
+<div class="table-responsive mb-0">
+    <h3 class="bg-primary text-white text-center p-3 rounded mb-0">🆕 Đơn hàng mới</h3>
+    <table class="table table-bordered table-hover table-striped shadow-sm">
+        <thead class="table-dark">
+            <tr class="text-center align-middle">
+                <th class="align-middle">📄 Mã vận đơn</th>
+                <th class="align-middle">🙍‍♂️ ID khách</th>
+                <th class="align-middle">📅 Ngày đặt</th>
+                <th class="align-middle">⏰ Hạn nhận đơn</th>
+                <th class="align-middle">💰 Tổng tiền</th>
+                <th class="align-middle">📌 Trạng thái</th>
+                <th class="align-middle">⚙️ Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var donHang in Model)
+            {
+                if (donHang.TrangThai == "Mới")
+                {
+                    <tr>
+                        <td class="text-center">@donHang.MaDH</td>
+                        <td class="text-center">@donHang.MaKH</td>
+                        <td class="text-center">
+                            <div>@donHang.NgayDat.ToString("dd/MM/yyyy")</div>
+                            <div>@donHang.NgayDat.ToString("HH:mm:ss")</div>
+                        </td>
+                        <td class="text-center" style="color: @(donHang.IsOutOfThoiGianXacNhan ? "red" : "black")">
+                            <div>@donHang.ThoiGianXacNhanHienThi.Split(' ')[0]</div>
+                            <div>@donHang.ThoiGianXacNhanHienThi.Split(' ')[1]</div>
+                        </td>
+                        <td class="text-center">@($"{donHang.TongTien:N0} VNĐ")</td>
+                        <td class="text-center">
+                            <span class="badge bg-warning">@donHang.TrangThai</span>
+                        </td>
+                        <td class="text-center">
+                            <button class="btn btn-danger btn-sm me-2" onclick="nhanDon('@donHang.MaDH')">Nhận đơn</button>
+                            <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#details-@donHang.MaDH">
+                                <i class="fas fa-eye"></i> Xem chi tiết
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="collapse bg-light" id="details-@donHang.MaDH">
+                        <td colspan="7">
+                            <h5 class="text-primary">Chi tiết đơn hàng</h5>
+                            <table class="table table-bordered table-sm">
+                                <thead class="table-light">
+                                    <tr class="text-center align-middle">
+                                        <th class="align-middle">🔖 Mã CTDH</th>
+                                        <th class="align-middle">📦 Hàng hóa</th>
+                                        <th class="align-middle">🔢 Số lượng</th>
+                                        <th class="align-middle">⚖️ Trọng lượng</th>
+                                        <th class="align-middle">💲 Giá</th>
+                                        <th class="align-middle">📌 Trạng thái</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var chiTiet in donHang.ChiTietDonHangs)
+                                    {
+                                        <tr>
+                                            <td class="text-center">@chiTiet.MaCTDH</td>
+                                            <td>@chiTiet.TenHangHoa</td>
+                                            <td class="text-center">@chiTiet.SoLuong</td>
+                                            <td class="text-center">@chiTiet.KhoiLuong</td>
+                                            <td class="text-end">@($"{chiTiet.GiaTri:N0} VNĐ")</td>
+                                            <td class="text-center">@chiTiet.TrangThai</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="table-responsive mt-0">
+    <h3 class="bg-success text-white text-center p-3 rounded mb-0">🚚 Đơn hàng đang giao</h3>
+    <table class="table table-bordered table-hover table-striped shadow-sm">
+        <thead class="table-dark">
+            <tr class="text-center align-middle">
+                <th class="align-middle">📄 Mã vận đơn</th>
+                <th class="align-middle">🙍‍♂️ ID khách</th>
+                <th class="align-middle">📅 Ngày đặt</th>
+                <th class="align-middle">⏰ Hạn giao</th>
+                <th class="align-middle">💰 Tổng tiền</th>
+                <th class="align-middle">📌 Trạng thái</th>
+                <th class="align-middle">⚙️ Hành Động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var donHang in Model)
+            {
+                if (donHang.TrangThai == "Đang giao")
+                {
+                    <tr>
+                        <td class="text-center">@donHang.MaDH</td>
+                        <td class="text-center">@donHang.MaKH</td>
+                        <td class="text-center">
+                            <div>@donHang.NgayDat.ToString("dd/MM/yyyy")</div>
+                            <div>@donHang.NgayDat.ToString("HH:mm:ss")</div>
+                        </td>
+                        <td class="text-center" style="color: @(donHang.IsOutOfDeadline ? "red" : "black")">
+                            <div>@donHang.ThoiGianGiaoDonHienThi.Split(' ')[0]</div>
+                            <div>@donHang.ThoiGianGiaoDonHienThi.Split(' ')[1]</div>
+                        </td>
+                        <td class="text-center">@($"{donHang.TongTien:N0} VNĐ")</td>
+                        <td class="text-center">
+                            <span class="badge bg-info">@donHang.TrangThai</span>
+                        </td>
+                        <td class="text-center">
+                            <button class="btn btn-success btn-sm me-2" onclick="daGiaoHang('@donHang.MaDH')">Hoàn thành đơn</button>
+                            <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#details-@donHang.MaDH">
+                                <i class="fas fa-eye"></i> Xem chi tiết
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="collapse bg-light" id="details-@donHang.MaDH">
+                        <td colspan="7">
+                            <h5 class="text-primary">Chi tiết đơn hàng</h5>
+                            <table class="table table-bordered table-sm">
+                                <thead class="table-light">
+                                    <tr class="text-center align-middle">
+                                        <th class="align-middle">🔖 Mã CTDH</th>
+                                        <th class="align-middle">📦 Hàng hóa</th>
+                                        <th class="align-middle">🔢 Số lượng</th>
+                                        <th class="align-middle">⚖️ Trọng lượng</th>
+                                        <th class="align-middle">💲 Giá</th>
+                                        <th class="align-middle">📌 Trạng thái</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var chiTiet in donHang.ChiTietDonHangs)
+                                    {
+                                        <tr>
+                                            <td class="text-center">@chiTiet.MaCTDH</td>
+                                            <td>@chiTiet.TenHangHoa</td>
+                                            <td class="text-center">@chiTiet.SoLuong</td>
+                                            <td class="text-center">@chiTiet.KhoiLuong</td>
+                                            <td class="text-end">@($"{chiTiet.GiaTri:N0} VNĐ")</td>
+                                            <td class="text-center">@chiTiet.TrangThai</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    function nhanDon(maDH) {
+        fetch('/ADMIN/DonHang/NhanDon', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ maDH: maDH }),
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    location.reload(); // Làm mới trang sau khi nhận đơn
+                } else {
+                    alert('Lỗi: ' + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Có lỗi xảy ra khi nhận đơn.');
+            });
+    }
+
+    function daGiaoHang(maDH) {
+        fetch('/ADMIN/DonHang/DaGiaoHang', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ maDH: maDH }),
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert(data.message);
+                    location.reload(); // Làm mới trang sau khi hoàn thành đơn
+                } else {
+                    alert('Lỗi: ' + data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Có lỗi xảy ra khi cập nhật trạng thái.');
+            });
+    }
+</script>
